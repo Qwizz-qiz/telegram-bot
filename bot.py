@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 TOKEN = "8532195297:AAFM92ig8QBj_McFR8d-37Pw0HZgor6lxDQ"
-GROUP_ID = -5225412229
+GROUP_ID = -5130877378
 
 async def forward(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message:
